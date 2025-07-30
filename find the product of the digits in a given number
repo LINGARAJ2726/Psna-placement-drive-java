@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner in = new Scanner(System.in);
+        int n,pro =1,id;
+        n = in.nextInt();
+        while(n>0){
+            id = n%10;
+            pro = pro * id;
+            n = n/10;
+        }
+        System.out.println(pro);
+    }
+}
