@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+    Scanner in = new Scanner(System.in);
+    int NUMBER,digit,id,count=0;
+    NUMBER = in.nextInt();
+    
+    while(NUMBER>0){
+        id = NUMBER%10;
+        NUMBER = NUMBER/10;
+    
+        count++; 
+        
+    }
+        System.out.println(count);
+    }
+}
